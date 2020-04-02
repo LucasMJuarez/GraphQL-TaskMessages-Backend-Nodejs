@@ -1,4 +1,4 @@
-# LucasMJuarez
+# GraphQL-TaskMessages-Backend-NodeJs
 GraphQL-TaskMessages-Backend-NodeJs
 
 Video del proyecto:
