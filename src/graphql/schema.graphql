@@ -1,0 +1,29 @@
+type Query {
+    messages:[Message!],
+    tasks: [Task!]
+}
+
+
+type Mutation { 
+    createMessage(title: String!, content:String!, author:String!): Message
+    createTask(title: String!, description:String!): Task
+    deleteMessage(_id: ID!): Message
+    deleteTask(_id: ID!):Task
+}
+
+type Message {
+    _id: ID! 
+    title: String!,
+    content: String!,
+    author: String
+}
+
+type Task { 
+    _id: ID!,
+    title: String!,
+    description: String!
+}
+
+
+
+
